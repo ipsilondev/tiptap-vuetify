@@ -27,7 +27,6 @@ export default async () => [
     // generateCssFile: join(distDir, 'main.css')
   }),
   await getConfig({
-    optimize: true,
     output: {
       file: join(distDir, 'bundle-esm.js'),
       format: 'esm',
